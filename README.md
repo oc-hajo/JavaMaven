@@ -10,8 +10,7 @@ Prerequisites:
 ## Build and run
 
 ```bash
-mvn dependency:resolve
-mvn package
+mvn package # uses maven-shade-plugin to build a fatJar (which includes all dependencies)
 java -cp target/my-app-1.0-SNAPSHOT.jar com.company.myapp.App
 ```
 
