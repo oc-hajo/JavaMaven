@@ -1,6 +1,6 @@
 # Java Maven Example Project
 
-Prequesitories:
+Prerequisites:
 - Java installation (`java --version`)
 - Maven installation (`mvn --version`)
 
